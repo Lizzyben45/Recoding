@@ -5,4 +5,4 @@ def find_number(numbers, target):
             return i
         i += 1
     return "-1"
-print(find_number([10, 25, 30, 45], target = 25))
+print(find_number([10, 25, 30, 45], target = 10))

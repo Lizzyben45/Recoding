@@ -1,15 +1,15 @@
-def find_largest(numbers):
-    if not numbers:
-        return None
-        
-    largest = numbers[0]
-    
-    for number in numbers:
-        if number > largest:
-            largest = number
-            
-    return largest
+def reverse_list(items):
+    reversed_items = []     
 
-find_number = [3, 41, 56, 21, 76, 9]
-largest = find_largest(find_number)
-print(largest)
+    aladi = len(items) -1
+    while aladi >= 0:
+        reversed_items = reversed_items + [items[aladi]]    
+        aladi -= 1
+
+    return reversed_items
+
+target_number = [1, 2, 3, 4]
+target_alphabet = ["a", "b", "c", "d"]
+
+print(reverse_list(target_number))
+print(reverse_list(target_alphabet))
