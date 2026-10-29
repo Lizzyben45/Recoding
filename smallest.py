@@ -13,3 +13,5 @@ def find_smallest(numbers):
 find_number = [8, 3, 12, 1, 7]
 smallest = find_smallest(find_number)
 print(smallest)
+
+
